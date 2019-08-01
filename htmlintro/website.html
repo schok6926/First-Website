@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+  <center>
+    <link rel= "stylesheet" type="text/css" href= "C:\Users\GWC\Desktop\htmlintro\style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <div class="w3-container">
+      <div class="w3-dropdown-click">
+        <button onclick="myFunction()" class="w3-button w3-black"> More about Me!</button>
+        <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+          <a href="website.html" class="w3-bar-item w3-button">Facts</a>
+          <a href="photos.html" class="w3-bar-item w3-button">Summer Photos</a>
+          <a href="#" class="w3-bar-item w3-button">Favorite Foods</a>
+        </div>
+      </div>
+    </div>
+    <script>
+    function myFunction(){
+      var x = document.getElementById("Demo");
+      if (x.className.indexOf("w3-show")== -1){
+        x.className += " w3-show";
+      } else{
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+
+    <h1> Sophia Chok</h1>
+    <body>
+    <p>I love sweets! Ice cream, boba and hot chocolate are some of my favorites. </p>
+    <img alt="boba" src="boba.jpeg"></img> <img alt="bingsoo ice cream" src="bingsoo.jpeg"></img><img alt="hot chocolate" src="download.jpeg"></img>
+    <strong>
+     <p>I live in Manhattan, NYC</p>
+    </strong>
+      <em><p>I like to binge watch b99! </p></em>
+       <p>My favorite youtube video: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Youtube </a></p>
+       </center>
+     </body>
+</html>

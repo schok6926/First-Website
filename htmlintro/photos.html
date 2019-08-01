@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+  <center>
+  <head>
+  <link rel= "stylesheet" type="text/css" href= "C:\Users\GWC\Desktop\htmlintro\slides.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <div class="w3-container">
+        <div class="w3-dropdown-click">
+          <button onclick="myFunction()" class="w3-button w3-black"> More about Me!</button>
+          <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+            <a href="website.html" class="w3-bar-item w3-button">Facts</a>
+            <a href="photos.html" class="w3-bar-item w3-button">Summer Photos</a>
+            <a href="#" class="w3-bar-item w3-button">Favorite Foods</a>
+          </div>
+        </div>
+      </div>
+      <script>
+      function myFunction(){
+        var x = document.getElementById("Demo");
+        if (x.className.indexOf("w3-show")== -1){
+          x.className += " w3-show";
+        } else{
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+      </script>
+</head>
+  <img  src="GWC.JPG"> <p> 2019 Summer: Girls Who Code NBA 2K Field Trip </p>
+  <img  src="nanjing1.jpg"> <img class="photos" src="nanjing2.jpg">   <p> 2018 Summer: My Nanjing study abroad trip! </p>
+  </center>
+<body>
+</body>
+
+</html>
